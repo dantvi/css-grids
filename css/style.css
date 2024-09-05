@@ -44,6 +44,20 @@ header {
 
 main {
 	grid-column:span 9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	gap: 1%;
+	align-content: space-around;
+	height: 200px;
+	padding: 10px;
+	background-color: beige;
+}
+
+main section {
+ 	width: 275px;
+	height: 80px;
 }
 
 aside {
