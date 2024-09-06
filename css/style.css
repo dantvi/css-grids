@@ -62,6 +62,11 @@ main section {
 
 aside {
 	grid-column: span 3;
+	background-color: beige;
+	display: flex;
+	flex-direction: column;
+	gap: 5%;
+	padding: 5%;
 }
 
 footer {
